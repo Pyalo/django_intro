@@ -1,0 +1,17 @@
+{% extends 'master.html' %}
+{% load static %}
+
+{% block title %} Home {% endblock %}
+
+{% block content %}
+<div class="container">
+    <div class="row">
+        <div class="col-sm-6">
+            <img src="{% static 'images/rafael-hoyos-weht-roZjChBIqgA-unsplash.jpg' %}" class="img-fluid" alt="">
+        </div>
+        <div class="col-sm-6">
+            <img src="{% static 'images/clay-banks-mRkH4J_TopI-unsplash.jpg' %}" class="img-fluid" alt="">
+        </div>
+    </div>
+</div>
+{% endblock %}

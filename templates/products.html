@@ -1,0 +1,25 @@
+{% extends 'master.html' %}
+{#{% load static %}#}
+
+{% block title %} Our Products {% endblock %}
+
+{% block content %}
+
+<div class="container">
+    <h3>Full Name is {{ name }}</h3>
+    <p>{{ age }}</p>
+    <p>{{ weight }} kg</p>
+
+    {% for sub in subjects %}
+        <p>{{ sub }}</p>
+    {% endfor %}
+
+    {% if isDisable %}
+        <p>Has disability</p>
+    {% else %}
+        <p>Not Disable</p>
+    {% endif %}
+</div>
+
+
+{% endblock %}
