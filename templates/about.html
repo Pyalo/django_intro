@@ -7,7 +7,7 @@
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-8">
-                <table class="table">
+                <table class="table animate__animated__zoomIn">
                     <tr>
                         <th>Name</th>
                         <th>english</th>
@@ -23,12 +23,20 @@
                             <td>{{ score.math }}</td>
                             <td>{{ score.chemistry }}</td>
                             <td>{{ score.biology }}</td>
-                            <td></td>
+                            <td>{{ score.total }}</td>
                         </tr>
                     {% endfor %}
                 </table>
             </div>
         </div>
     </div>
+{% endblock %}
+
+{% block extra_links %}
+{#Animation css animate.style#}
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
 {% endblock %}
 

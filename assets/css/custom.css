@@ -2,3 +2,7 @@
     color: #687212;
     font-weight: 900;
 }
+
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show{
+    color: #0855c8;
+}

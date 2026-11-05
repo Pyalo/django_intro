@@ -19,10 +19,8 @@
     <orderEntry type="jdk" jdkName="~/PycharmProjects/django_intro/.venv" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="bootstrap" level="application" />
+    <orderEntry type="library" name="animate.css" level="application" />
   </component>
-  <component name="PackageRequirementsSettings" />
-  <component name="PyDocumentationSettings" />
-  <component name="ReSTService" />
   <component name="TemplatesService">
     <option name="TEMPLATE_CONFIGURATION" value="Django" />
     <option name="TEMPLATE_FOLDERS">
@@ -31,5 +29,4 @@
       </list>
     </option>
   </component>
-  <component name="TestRunnerService" />
 </module>
